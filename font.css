@@ -1,0 +1,58 @@
+.profile-info {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 100%;
+    text-align: left; 
+    direction: ltr;
+    color: #333;
+    padding: 10px;
+}
+
+.profile-name {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 25px;
+    display: block;
+    
+    color: #ff69b4; 
+    
+    background: linear-gradient(to right, #ff69b4 20%, #fff 50%, #ff69b4 80%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shineEffect 3s linear infinite;
+}
+
+@keyframes shineEffect {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.winner-announcement, 
+.security-note, 
+.steps-box, 
+.final-alert {
+    text-align: left;
+    direction: ltr;
+    line-height: 1.8; 
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.winner-announcement {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.security-note {
+    background-color: #f4f4f4;
+    border-left: 4px solid #ff69b4; 
+    padding: 12px;
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: left;
+}
